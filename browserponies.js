@@ -1244,7 +1244,7 @@ var BrowserPonies = (function () {
 			var count = resource_count - resource_count_for_progress;
 			var progress = count === 0 ? 1.0 : loaded / count;
 			progressbar.bar.style.width = Math.round(progress * 450)+'px';
-			progressbar.label.innerHTML = format('Loading Ponies&hellip; %d%%',Math.floor(progress * 100));
+			progressbar.label.innerHTML = format('Loading Character&hellip; %d%%',Math.floor(progress * 100));
 
 			if (!progressbar.container.parentNode) {
 				if (document.body) {
